@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<title>
+</title>
+
+<body>
+
+
+  <h1 style="color: green">Example Calls</h1>
+
+    <p>There are 3 different calls for each endpoint. Query, json and url parameters. Some examples are below.</p>
+  <p>Query Param Example Call</p>
+  <a
+          href="localhost:5000/ec2/list?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME">localhost:5000/ec2/list?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME"</a>
+  <p>Url Param Example Call</p>
+  <a
+    href="localhost:5000/ec2/list/$ACCES_KEY/$SECRET_ACCES_KEY/$REGION NAME">localhost:5000/ec2/list/$ACCES_KEY/$SECRET_ACCES_KEY/$REGION NAME</a>
+  <p>Start Instance Query Example Call</p>
+  <a
+    href="localhost:5000/ec2/start?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME&InstanceId=$INSTANCEID">localhost:5000/ec2/start?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME&InstanceId=$INSTANCEID</a>
+  <p>Stop Instance Query Example Call</p>
+  <a
+    href="localhost:5000/ec2/stop?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME&InstanceId=$INSTANCEID">localhost:5000/ec2/stop?aws_access_key_id=$ACCESS_KEY&aws_secret_access_key=$SECRET_ACCES_KEY&region_name=$REGION NAME&InstanceId=$INSTANCEID</a>
+
+
+</body>
+
+</html>
