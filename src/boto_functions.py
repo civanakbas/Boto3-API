@@ -31,10 +31,3 @@ def list_instance_ids(client):
             InstanceIds[f"Instance {i}"] = data
             i += 1
     return InstanceIds
-
-
-if __name__ == "__main__":
-    client = instantiate_client(
-        config["access_key"], config["secret_access_key"], config["region"]
-    )
-    print(list_instance_ids(client))
